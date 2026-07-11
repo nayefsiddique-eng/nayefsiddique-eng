@@ -13,12 +13,15 @@
 
 ---
 
-## 🔬 Featured Project
+## 🔬 Featured Projects
 
 ### 🛡️ [MIRAGE Adaptive Honeypot](https://github.com/nayefsiddique-eng/Adaptive-Honeypot)
 > *A stateful adaptive honeypot leveraging machine learning ensembles (Random Forest, XGBoost, Isolation Forest) and a Q-learning engine (Bellman equations) to dynamically tune deception environments based on threat persistence.*
 > - Deployed a background session reaper loop for real-time Q-learning reward updates.
 > - Engineered a Cyber-HUD SOC dashboard tracking active attack streams and kill chains.
+
+### 💻 [CyberGuard SME Frontend](https://github.com/nayefsiddique-eng/cyberguard-sme-frontend)
+> *The frontend interface for CyberGuard SME, a Next.js (App Router), React, and TailwindCSS security dashboard offering integrated File, URL, Network, and Email threat scanning tools.*
 
 ---
 
