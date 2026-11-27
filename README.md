@@ -1,11 +1,11 @@
 # Hi there, I'm Mohammed Nayef Siddique 👋
 
-**Cybersecurity Engineer & AI Security Researcher**  
-*Building game-theoretic LLM firewalls, autonomous threat detection pipelines, and adaptive cyber deception systems.*
+**Cybersecurity and software development portfolio**
+I build security monitoring, cloud and application security prototypes.
 
 ---
 
-## 🛡️ About Me
+## About me
 
 - 🔬 **Focus Areas**: AI/LLM Security (Prompt Injection Defense), Deepfake Detection, Cloud Security (AWS), & Adaptive Honeypots.
 - 🎓 **Leadership**: Chair, IEEE Computer Society Student Branch.
@@ -14,39 +14,39 @@
 
 ---
 
-## 🚀 Featured Portfolio Projects
+## Featured individual projects
 
-### 🛡️ [PromptShield](https://github.com/nayefsiddique-eng/PromptShield)
-> *A Model-Agnostic Game-Theoretic Firewall for Prompt Injection Defense in LLM Applications.*
-> - Implements a dual-layer defense (Heuristics + DataSentinel Known-Answer Canary Detection).
-> - Evaluated against 100 benchmark attack samples from USENIX Security '24 *Open-Prompt-Injection*, achieving **100% attack detection rate** and **0% false positives**.
+### [Sentinel-Ops SIEM](https://github.com/nayefsiddique-eng/siem-ai-guardian)
+> *Security event ingestion and investigation prototype.*
+> - Normalizes security events and generates alerts for patterns such as repeated authentication failures.
+> - Provides a FastAPI backend and React investigation dashboard.
 
-### 🎙️ [VoxGuard](https://github.com/nayefsiddique-eng/VoxGuard)
-> *Real-Time AI Voice Clone & Deepfake Call Verification System.*
-> - Combines sliding-window MFCC spectral analysis with challenge-response verification and offline OpenAI Whisper ASR.
-> - Evaluated on the ASVspoof 2019 dataset, achieving **0.9870 AUC** under telephony codec degradation (GSM, AMR-NB).
-
-### ☁️ [CloudSentinel](https://github.com/nayefsiddique-eng/CloudSentinal)
-> *AI-Powered AWS Cloud Security Scanning & Auto-Remediation Platform.*
-> - Scans S3, IAM, EC2, CloudTrail, and Lambda against 17 verified AWS security rules using paginated `boto3` calls.
-> - Features an automated risk scoring engine with a human-in-the-loop safety gate.
-
-### ⚔️ [Vanguard SME Security Suite](https://github.com/nayefsiddique-eng/Vanguard-SME-Security-Suite)
+### [Vanguard SME Security Suite](https://github.com/nayefsiddique-eng/Vanguard-SME-Security-Suite)
 > *Unified Attack-Surface Monitoring Console for SMEs.*
 > - Integrates 5 threat scanning engines with tree-based ML classifiers (Random Forest, Gradient Boosting, Isolation Forest).
 > - Maps threat indicators directly to the **MITRE ATT&CK** matrix.
 
-### 🍯 [Adaptive Honeypot (PRAETOR)](https://github.com/nayefsiddique-eng/Adaptive-Honeypot)
-> *Research-Grade Stateful Adaptive Honeypot.*
-> - Leverages CMARL (Contextual Multi-Agent Reinforcement Learning) and Q-learning to dynamically tune deception responses and increase attacker dwell time by **>6x**.
+### [Adaptive Honeypot (PRAETOR)](https://github.com/nayefsiddique-eng/Adaptive-Honeypot)
+> *Stateful Adaptive Honeypot Research Prototype.*
+> - Records interaction telemetry from SSH, Telnet, and HTTP decoys and adapts simulated responses using reinforcement learning.
 
-### 🎖️ [Cyber Defense for Military Networks](https://github.com/nayefsiddique-eng/Cyber-Defense-for-Military-Networks)
-> *Digital Twin Cyber Range & Telemetry Generator.*
-> - Simulates 30+ assets across 6 military enclaves, generating real-time PCAP traffic and OCSF v1.3.0 normalized log streams.
+### [PhishShield AI](https://github.com/nayefsiddique-eng/PhishShield-AI-Guardian)
+> *Browser extension and URL risk analysis API.*
+> - Combines origin-based classification with in-browser checks. URL paths and query strings stay in the browser.
+
+### [PromptShield](https://github.com/nayefsiddique-eng/PromptShield)
+> *A Model-Agnostic Game-Theoretic Firewall for Prompt Injection Defense in LLM Applications.*
+> - Implements a dual-layer defense (Heuristics + DataSentinel Known-Answer Canary Detection).
+> - Includes an evaluation harness and an example retrieval-augmented application.
+
+### [VoxGuard](https://github.com/nayefsiddique-eng/VoxGuard)
+> *Voice Deepfake Verification Prototype.*
+> - Combines MFCC analysis with challenge-response verification and local Whisper transcription.
+> - Includes evaluation artifacts for ASVspoof 2019 and experiments with simulated telephony degradation.
 
 ---
 
-## ⚡ Tech Stack & Skills
+## Tools and skills
 
 ```
 Languages  : Python 3.12+, JavaScript (ES6+), SQL, Bash, PowerShell
@@ -59,10 +59,10 @@ Security   : OCSF v1.3.0, MITRE ATT&CK, ASVspoof, Wireshark/Scapy, ClamAV
 
 ---
 
-## 📚 Publications & Research
+## Research projects
 
 - **MIRAGE: An Adaptive AI-Based Honeypot for Intelligent Cyber Threat Deception**  
-  *Research Paper & Implementation Benchmark* — [View Repository](https://github.com/nayefsiddique-eng/Adaptive-Honeypot)
+  *Honeypot research prototype and evaluation artifacts* — [View Repository](https://github.com/nayefsiddique-eng/Adaptive-Honeypot)
 
 ---
 
